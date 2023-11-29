@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+    <title>Busqueda de Trabajo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1><strong>Rellene lo solicitado</strong></h1>
+    <li class="colorli">
+        <form action="/registro" method="post">
+
+            <label for="nombre">Foto de ti:</label>
+            <input type="file" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento" required>
+
+            <label for="DNI">DNI:</label>
+            <input type="number" id="DNI" name="DNI" required>
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="provincia">Provincia:</label>
+            <input type="text" id="provincia" name="provincia" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="X">Hablanos de ti:</label>
+            <input type="text" id="X" name="X" required>
+
+            <label for="instagram">Por que busca este trabajo:</label>
+            <input type="text" id="instagram" name="instagram" required><br>
+
+            <label for="consulta">En que sector desea trabajar?<br>(Elija solo una opcion)</label>
+            <hr>
+            <input type="checkbox" id="consulta1" name="consulta" value="producciones"> <label
+                for="consulta1">Produccion</label>
+            <input type="checkbox" id="consulta2" name="consulta" value="ventas"> <label
+                for="consulta2">Ventas</label>
+            <input type="checkbox" id="consulta3" name="consulta" value="administrativa"> <label
+                for="consulta3">Administrativa</label>
+            <input type="checkbox" id="consulta4" name="consulta" value="contabilidad"> <label
+                for="consulta4">Contabilidad</label>
+            <input type="checkbox" id="consulta5" name="consulta" value="direccion"> <label
+                for="consulta5">Direccion</label>
+
+            <hr>
+            <input type="submit" value="Registrarse">
+    </li>
+
+    </form>
+
+    <footer>
+        <nav id="colornav">
+
+            <ul>
+                <li>Redes: <br> <a href="#"> <img src="assest/instagram.png" width="30px" height="30px"> <img
+                            src="assest/facebook.png" width="30px" height="30px"> </a></li>
+                <li id="borde">©Copyright 2050 de Santiago Valenza.</li>
+                <li>Cet N°30 <br><a href="https://campus.cet30.edu.ar/"> <img src="assest/logocet30.png" width="45px"
+                            height="45px"> </a> </li>
+
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

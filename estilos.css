@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+body{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(0,7,195,1) 100%);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+nav,
+article,
+aside,
+footer {
+    background-color: #ffffff;
+    padding: 1%;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #000000;
+}
+
+p,
+input,
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2a2a2a;
+    list-style-type: none;
+}
+
+#colornav {
+    background-color: #ffffff;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+form {
+       text-align: left;
+       justify-content: center;
+       font-family: 'Hedvig Letters Serif', serif;
+  }
+  .colorli{
+    color: rgb(221, 219, 219);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: rgb(49, 160, 154);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    margin-right: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
