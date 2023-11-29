@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 body{
     background: rgb(255,255,255);
-background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(0,7,195,1) 100%);
+background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(22, 25, 105) 100%);
 }
 h1{
     text-align: center;
@@ -66,14 +66,17 @@ form {
        justify-content: center;
        font-family: 'Hedvig Letters Serif', serif;
   }
-  .colorli{
+  .colordiv{
     color: rgb(221, 219, 219);
+    margin: 0 auto;
+    width: 600px;
   }
 
   label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    
 }
 
 input {
@@ -81,6 +84,7 @@ input {
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    box-shadow: 0px 0px 30px 5px rgb(230, 230, 230);
 }
 
 input[type="checkbox"] {
